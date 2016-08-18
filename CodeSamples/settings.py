@@ -80,11 +80,11 @@ WSGI_APPLICATION = 'CodeSamples.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'lights',
-        'USER': 'smartguy',
-        'PASSWORD': 'smartguy',
-        'HOST': 'localhost',
-        'PORT': '5423',
+        'NAME': 'd6k814781h1bpr',
+        'USER': 'rfzqiojwyzbywb',
+        'PASSWORD': 'Duz6m0-88AqcRIWRWO-l8o0X_9',
+        'HOST': 'ec2-23-21-100-145.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
