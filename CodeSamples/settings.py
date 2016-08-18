@@ -128,6 +128,7 @@ USE_TZ = True
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 PROJECT_DIR = os.path.join(PROJECT_ROOT,'fotoblogger')
 STATIC_ROOT= os.path.join(PROJECT_DIR,'staticfiles/')
+STARTIC_URL='/static/'
 STATICFILES_DIRS = [ os.path.join(BASE_DIR, "static"), 'fotoblogger/static/', ]
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
