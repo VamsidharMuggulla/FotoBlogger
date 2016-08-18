@@ -79,12 +79,12 @@ WSGI_APPLICATION = 'CodeSamples.wsgi.application'
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'mys$
-        'NAME': 'lights',                      # Or path to database file if using$
-        'USER': 'smartguy',                      # Not used with sqlite3.
-        'PASSWORD': 'smartguy',                  # Not used with sqlite3.
-        'HOST': 'localhost',                      # Set to empty stri$
-        'PORT': '3306',                   # Set to empty string for default. No$
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'lights',
+        'USER': 'smartguy',
+        'PASSWORD': 'smartguy',
+        'HOST': 'localhost',
+        'PORT': '5423',
     }
 }
 
