@@ -1,4 +1,3 @@
-from urllib3 import fields
 import imghdr
 
 from django.core import validators
