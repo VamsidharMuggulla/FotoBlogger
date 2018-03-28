@@ -24,11 +24,14 @@
 
     <div class="form-group">
 
-      <input type="text" class="form-control" name="{{ form.email.name }}" id="usr" placeholder="Email" />
+      {# <input type="text" class="form-control" name="{{ form.email.name }}" id="usr" placeholder="Email" /> #}
+        <input type="text" class="form-control" name="email" id="usr" placeholder="Email" />
+        
     </div>
     <div class="form-group">
 
-      <input type="password" name="{{ form.password.name }}" placeholder="Password" class="form-control" id="pwd"/>
+      {# <input type="password" name="{{ form.password.name }}" placeholder="Password" class="form-control" id="pwd"/> #}
+              <input type="password" name="password" placeholder="Password" class="form-control" id="pwd"/>
     </div>
       <div class="form-group">
       <input class="btn btn-primary" type="submit" value="login"/>
